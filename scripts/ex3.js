@@ -1,5 +1,6 @@
-function Mawer(){
+function balancoFinanceiro(){
 let soma_ganho = 0;
+let ganho = 0;
     for(let i=1; i<=12; i+=1){
        let ganho = parseFloat(prompt("Digite o ganho do mês "+ i));
 
@@ -14,6 +15,7 @@ let soma_ganho = 0;
     alert("O ganho anual foi de: "+soma_ganho);
 
     let soma_gasto = 0;
+    let gasto = 0;
     for(let i=1; i<=12; i+=1){
        let gasto = parseFloat(prompt("Digite o gasto do mês "+ i));
 
@@ -30,5 +32,4 @@ let soma_ganho = 0;
     let saldo = soma_ganho - soma_gasto;
     alert("O saldo anual foi de: "+saldo);
 
-    let soma_gasto = 0;
 }
