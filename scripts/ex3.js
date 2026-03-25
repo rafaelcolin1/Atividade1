@@ -6,7 +6,7 @@ let ganho = 0;
 
        if ( !isNaN(ganho) ){
             soma_ganho += ganho;
-           console.log(soma);
+        
         } else{
             alert("Por favor, digite um numero válido!");
         }
@@ -21,13 +21,13 @@ let ganho = 0;
 
        if ( !isNaN(gasto) ){
             soma_gasto += gasto;
-           console.log(soma);
+           
         } else{
             alert("Por favor, digite um numero válido!");
         }
         
     }
-    alert("O gasto anual anual foi de: "+soma_ganho);
+    alert("O gasto anual anual foi de: "+soma_gasto);
 
     let saldo = soma_ganho - soma_gasto;
     alert("O saldo anual foi de: "+saldo);
